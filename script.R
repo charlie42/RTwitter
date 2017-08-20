@@ -16,10 +16,10 @@ library(broom)
 library(wordcloud)
 #connect to API
 
-setup_twitter_oauth("IPOmcmCGR7bhD9kACIk2V1M7w",
-                    "hbm6GQvF8Pw7Olg8Y5yXJ6ni6xlttuNQSFX0ScwBKoyUo2VU1m",
-                    "3092398967-Xj4Ku5JphlEqYdGKC0pz5KL9Ysg55TB6NKAZe5g",
-                    "9rRZlPEzMtd73wVf6JLhQjfxjwhkc50wGko1gH4gsKcW7")
+setup_twitter_oauth("SECRET",
+                    "SECRET",
+                    "SECRET",
+                    "SECRET")
 
 #comparing russian and english sentiments
 homeopathy_ru_tweets=searchTwitter("Гомеопатия",lang="ru",n=81,since='2000-04-5')
